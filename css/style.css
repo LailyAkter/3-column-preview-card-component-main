@@ -1,0 +1,78 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+}
+.contenner {
+    max-width: 1600px;
+    width: auto;
+
+}
+.card-div {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.div1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 0px 0px 20px;
+}
+.div2 {
+    background-color: hsl(184, 100%, 22%);
+}
+.div3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 20px 20px 0px;
+}
+.div1,
+.div2,
+.div3 {
+    color: #fff;
+    flex-basis: 250px;
+    max-width: 350px;
+    height: 350px;
+    padding: 40px 30px 30px 30px;
+}
+
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.div2 p,
+.div3 p,
+.div1 p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+.div1 a,
+.div2 a,
+.div3 a{
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding:10px 21px;
+    position: relative;
+    top:12%;
+}
+
+.div1  a{
+    color: hsl(31, 77%, 52%);
+}
+
+.div2 a{
+    color: hsl(184, 100%, 22%);
+}
+
+.div3 a{
+    color: hsl(179, 100%, 13%);
+}
